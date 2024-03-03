@@ -1,0 +1,29 @@
+.outs {
+    height: 100%;
+}
+
+.outs-show {
+    overflow: auto;
+    overflow-y: scroll;
+}
+
+.outs-time {
+    display: flex;
+    margin-top: 10px;
+    background-color: orange;
+    width: 35%;
+    border-radius: 10px;
+    justify-content: space-around;
+    height: 30px;
+    align-items: center;
+}
+
+.outs-time .icon {
+    width: 15px;
+    height: 15px;
+}
+
+.outs-content-icon {
+    width: 21px;
+    height: 15px;
+}

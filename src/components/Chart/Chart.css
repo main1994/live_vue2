@@ -1,0 +1,31 @@
+.chart {
+    height: 100%;
+}
+
+.chart-show {
+    overflow: auto;
+    overflow-y: scroll;
+}
+
+.chart-input {
+    display: flex;
+    justify-content: center;
+}
+
+.word {
+    width: 95%;
+    height: 100px;
+    position: fixed;
+    /* 固定在屏幕上 */
+    bottom: 0;
+    /* 距离底部为0像素 */
+}
+
+.chart-word {
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.chart-word :nth-child(1) {
+    color: blue;
+}
